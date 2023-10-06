@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+h1{
+    text-align: left;
+    font-size: 50px;
+    color:rgb(229, 238, 238);
+    font-style: oblique;
+    padding-left: 50px;
+}
+
+h4 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.headerblock {
+    background-color:black;
+    background-image: url("../images/raffleballs.gif");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerblock img {
+    width: 225px;
+    height: 225px;
+    margin-top: 25px;
+}
+
+.headerblock h3 {
+    color: greenyellow;
+}
+
+
+.data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.graphics {
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: rgb(119, 108, 108);
+    justify-content: center;
+}
+
+.graphics img {
+    width: 435px;
+    height: 435px;
+}
+
+.graphics button {
+    width: 100px;
+}
+
+.enter {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.enter button {
+    width: 100px;
+    margin: 50px;
+    margin-left: 25px;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 40px;
+}
+
+.submit {
+width: 100px;
+height: 50px;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 40px;
+}
+
+form {
+    background-color: thistle;
+    border: black;
+    padding: 25px;
+}
+
+.pagebody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+#amount {
+    width: 35px;
+    height: 15px;
+}
+.caption {
+    padding-bottom: 50px;
+}
+
+button {
+    height: 50px;
+}

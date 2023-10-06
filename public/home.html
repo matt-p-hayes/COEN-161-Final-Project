@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JIM's Raffle</title>
+        <link href='./styles/home.css-5' rel='stylesheet' />
+    </head>
+    <body>
+        <main>
+            <h1 id="top">JIM's Raffle</h1>
+            <h4>Jonathan &emsp;Inosa &emsp;Matt</h4>
+            <section class="headerblock">
+                <img src="./images/lastchance.gif">
+                <h3>You can't win if you don't play.</h3>
+            </section>
+            <section class="pagebody">
+                    <section class="enter">
+                        <section class="money">
+                            <h2 class="counts"># of Tickets sold: </h2>
+                            <h3 id="ticketAmount">0</h3>
+                        </section>
+                        <form id="form">
+                            <h2>Join for $5 a ticket!</h2>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name"><br><br>
+                            <label for="amount"># of Tickets:</label>
+                            <input type="number" id="amount" name="amount" min="1"><br><br>
+                            <input type="submit" class="submit" value="Join Raffle">
+                        </form>
+                        <button class="reset" id="delete">Reset Raffle</button>
+                    </section>
+                    <section class="graphics">
+                        <img src="./images/bag.png">
+                        <a href="./#top">Go to top</a>
+                    </section>
+                    <section class="amount">
+                        <h2 class="counts">Current<br>Amount:</h2>
+                        <h3 class="caption" id="raffleAmount">$0</h3>
+                        <a href="/coen-161/final/raffle/winner" id="toPickWinner">CLICK TO PICK WINNER</a>
+                    </section>
+            </section>
+        </main>
+        <script defer src="./home.js-5"></script>
+    </body>
+</html>

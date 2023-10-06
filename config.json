@@ -1,0 +1,8 @@
+{
+  "scheme": "mongodb+srv://",
+  "address": "application.2juoz.mongodb.net",
+  "defaultDatabase": "raffle",
+  "username": "admin",
+  "password": "QbNSdPi3bHyNGBjX",
+  "port": 35846
+}
