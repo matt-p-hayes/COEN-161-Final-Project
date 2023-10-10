@@ -1,9 +1,9 @@
 # Raffle Website
-###Overview
+### Overview
 Raffle website that was built for COEN 161 (Web Development) final project. Showcases route handling and database management.
 
 
-## Technology Used
+### Technology Used
 - Javascript, HTML, CSS
 - Node.js
 - mongoDB
